@@ -22,8 +22,8 @@ while count < 10:
     
 # Hvilket år vil et bankinnskudd på 50.000 kroner til 5% årlig rente
 # bli likt eller høyere enn et bankinnskudd på 100.000 kroner til 2 % årlig rente? 
-INNSKUDD_A = 50000
-INNSKUDD_B = 100000
+INNSKUDD_A = 100000
+INNSKUDD_B = 200000
 RENTE_A = 0.05
 RENTE_B = 0.02
 balanse_a = INNSKUDD_A
@@ -40,5 +40,7 @@ while balanse_a < balanse_b:
 #    print(balanse_b, end="  ")
 #    print(aar)
 print("Det tar", aar, "år før det lavere bankinnskuddet blir minst like høyt som det andre")
+
+
     
 
