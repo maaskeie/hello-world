@@ -20,8 +20,8 @@ while count < 10:
     count += 1
     print(count)
     
-# Hvilket år vil et bankinnskudd på 50.000 kroner til 5% årlig rente
-# bli likt eller høyere enn et bankinnskudd på 100.000 kroner til 2 % årlig rente? 
+# Hvilket år vil et bankinnskudd på 100.000 kroner til 5% årlig rente
+# bli likt eller høyere enn et bankinnskudd på 200.000 kroner til 2 % årlig rente? 
 INNSKUDD_A = 100000
 INNSKUDD_B = 200000
 RENTE_A = 0.05
